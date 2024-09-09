@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css" />
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body id="contenedor">
+    <div id="contenedor_superior">
+      <div id="contenero_titulo">
+        <h1 id="title">Informacion Buscados Por el FBI</h1>
+      </div>
+      <div id="contenedor_input">
+        <input type="text" name="input_nombre" id="input_nombre" />
+        <button id="boton_buscar" onclick="obtenerValorInput()">Buscar</button>
+      </div>
+    </div>
+    <div id="contenedor_informacion">
+      <div id="informacion">
+        <div id="nombre"></div>
+        <div id="descripcion"></div>
+        <div id="foto"></div>
+        <div id="datos"></div>
+      </div>
+    </div>
+    <img src="" alt="" />
+  </body>
+</html>
